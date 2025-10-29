@@ -16,7 +16,7 @@ Built with **React Router**, **Context API**, and **localStorage**, it’s light
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 
 
 - **React (v16+)**
 - **React Router DOM (v6+)**
@@ -25,4 +25,30 @@ Built with **React Router**, **Context API**, and **localStorage**, it’s light
 - **Custom CSS**
 
 ---
+## 🎨  Styling
+
+All visual styles are in src/App.css.
+The app uses a minimal, modern look with:
+
+A dark navbar
+
+Blue and green buttons
+
+Centered login and registration cards
+
+You can easily customize colors and spacing by editing App.css.
+
+## 🔒 Authentication Logic
+
+User details are saved locally in localStorage under:
+
+**app_users_v1**
+
+**app_session_v1**
+
+Logged-in users stay signed in even after refreshing.
+
+Clicking Logout clears the session immediately.
+
+Account deletion removes both the session and stored data.
 
